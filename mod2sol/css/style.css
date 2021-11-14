@@ -1,0 +1,63 @@
+h1{
+    text-align: center;
+}
+
+.row{
+    width: 100%;
+}
+
+p{
+     padding: 15px 5px 0px 5px;
+     position: relative;
+}
+
+.section{
+background-color: rgb(150, 150, 150);
+ border: 2px solid black;
+ margin-top: 20px;
+ margin-right: 20px;
+ padding: 3px;
+ text-align: justify;
+ position: relative;
+}
+
+span{
+    font-size: 20px;
+    width: 150px;
+    border: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    float: right; top:0; right: 0; margin: 0;
+    position: absolute;
+}
+
+#chicken{
+    background-color: #F08080;
+}
+
+#beef{
+    background-color: #D14C4C;
+}
+
+#sushi{
+    background-color: #F7DE8C;
+}
+
+@media (min-width: 992px){
+    .col-lg-4 { 
+        width: 33.33%;
+        float: left;
+    }
+
+    .col-md-12{
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (max-width: 767px){
+    .col-sx-12{
+        float: left;
+        width: 100%;
+    }
+}
